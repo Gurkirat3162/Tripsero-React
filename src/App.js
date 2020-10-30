@@ -1,7 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Components from './components/login/index.jsx'
+import Components from './components/login/index.jsx';
 
 var { Login  } = Components;
 console.log(Login )

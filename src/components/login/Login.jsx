@@ -8,7 +8,7 @@ export default class Login extends React.Component {
 
     render() {
         return (
-            
+
             <div className="base-container" >
                 <div className="header">Welcome to Tripsero </div>
                 <div className="content">
@@ -19,7 +19,6 @@ export default class Login extends React.Component {
 
                             <input type="text" name="username" placeholder="Username" />
 
-
                         </div>
                         <div className="form-group">
                             <label htmlfor="password">Password</label>
@@ -28,7 +27,7 @@ export default class Login extends React.Component {
                     </div>
                 </div>
                 <div className="text" >
-                <a href="url">Forgot Password</a>
+                    <a href="url">Forgot Password</a>
                 </div>
                 <div className="footer">
                     <button type="button" className="btn">Login</button>
